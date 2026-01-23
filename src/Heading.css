@@ -1,0 +1,15 @@
+.heading{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading-buttons{
+    background-color: transparent;
+    font-size: x-large;
+}
+
+.heading-buttons:hover{
+    background-color: transparent;
+    text-decoration:underline;
+    transform: scale(1);
+}
