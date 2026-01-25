@@ -1,0 +1,25 @@
+.Intro-Section{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-bottom: 10rem;
+    
+}
+
+.Projects-Display{
+    display: flex;
+    flex-direction: row;
+
+    gap: 3rem;
+    justify-content: center;
+}
+
+.Project-Image{
+    max-width: 30rem;
+    max-height: 150rem;
+}
+
+.Project-Image:hover{
+    transform: scale(1.1);
+}
