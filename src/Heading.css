@@ -1,9 +1,22 @@
 .heading{
     display: flex;
     justify-content: flex-end;
+
+    position: fixed;
+    right: 0;
+
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+
+    gap:2em;
+    padding-right: 1em;
 }
 
 .heading-buttons{
+    color: whitesmoke;
     background-color: transparent;
     font-size: x-large;
 }

@@ -4,7 +4,7 @@ import './Projects.css'
 function DisplayProjects(){
     return (
         <>
-            <div className='Outer-Page'>
+            <div id="projects" className='Outer-Page'>
 
                 <div className='Intro-Section'>
                     <h1>Projects</h1>
