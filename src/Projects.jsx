@@ -3,7 +3,7 @@ import './Projects.css'
 function DisplayProjects(){
     return (
         <>
-            <div>
+            <div className='Outer-Page'>
 
                 <div className='Intro-Section'>
                     <h1>Projects</h1>
@@ -11,17 +11,37 @@ function DisplayProjects(){
 
                 <div className='Projects-Display'>
 
-                    <div>
+                    <div className='Project-Card'>
                         <img src={projectRealityImage} alt="ProjectReality Image" className='Project-Image'></img>
-                        <p>A mockup Demo VR site</p>
+                        <a
+                            href='https://projectreality.netlify.app/'
+                            rel="ProjectReality-Link"
+                        > 
+                            A mockup website for a VR company<br/>
+                            Click here to check it out
+                        </a>
                     </div>
-                    <div>
+
+                    <div className='Project-Card'>
                         <img src={projectRealityImage} alt="ProjectReality Image" className='Project-Image'></img>
-                        <p>A mockup Demo VR site</p>
+                        <a
+                            href='https://projectreality.netlify.app/'
+                            rel="ProjectReality-Link"
+                        > 
+                            A mockup website for a VR company<br/>
+                            Click here to check it out
+                        </a>
                     </div>
-                    <div>
+
+                    <div className='Project-Card'>
                         <img src={projectRealityImage} alt="ProjectReality Image" className='Project-Image'></img>
-                        <p>A mockup Demo VR site</p>
+                        <a
+                            href='https://projectreality.netlify.app/'
+                            rel="ProjectReality-Link"
+                        > 
+                            A mockup website for a VR company<br/>
+                            Click here to check it out
+                        </a>
                     </div>
                     
                     

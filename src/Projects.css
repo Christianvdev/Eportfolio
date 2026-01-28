@@ -1,18 +1,28 @@
+.Outer-Page{
+    display: flex;
+
+    flex-direction: column;
+}
+
 .Intro-Section{
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    margin-bottom: 10rem;
+    margin-bottom: 0rem;
     
 }
 
 .Projects-Display{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     gap: 3rem;
     justify-content: center;
+
+    flex-wrap: wrap;
+
+    min-height: 100vh;
 }
 
 .Project-Image{
@@ -22,4 +32,19 @@
 
 .Project-Image:hover{
     transform: scale(1.1);
+}
+
+.Project-Card{
+    display: flex;
+
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Project-Card a{
+    color:aliceblue;
+    align-self: center;
+
+    font-weight:lighter;
 }
