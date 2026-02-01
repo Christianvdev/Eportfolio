@@ -1,29 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
-
-
 .heading{
     display: flex;
     justify-content: flex-end;
 
     position: fixed;
-    top: 0;
     right: 0;
 
-    background-image: linear-gradient(rgb(24, 24, 24),#24242400);
-    width: 100vw;
+}
 
-    z-index: 1;
+.button-container{
+    display: flex;
+    flex-direction: row;
+
+    gap:2em;
+    padding-right: 1em;
 }
 
 .heading-buttons{
+    color: whitesmoke;
     background-color: transparent;
     font-size: x-large;
-    font-family: "Fragment Mono", monospace;
-    font-weight: 400;
-    font-style: italic;
-
-    color: whitesmoke;
-    text-decoration: none;
 }
 
 .heading-buttons:hover{
