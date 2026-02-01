@@ -7,7 +7,7 @@ import pythonLogo from './assets/pythonLogo.png'
 function HeroDisplay(){
     return (
         <>
-            <div className="content-outer">
+            <div id="Home"className="content-outer">
                 <div className='content-inner'>
                     <div className='intro-text'>
                         <h1> 
