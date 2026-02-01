@@ -7,7 +7,7 @@ function DisplayProjects(){
             <div id="projects" className='Outer-Page'>
 
                 <div className='Intro-Section'>
-                    <h1>Projects</h1>
+                    <h1>Projects »</h1>
                 </div>
 
                 <div className='Projects-Display'>

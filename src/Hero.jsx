@@ -1,13 +1,18 @@
-import './Hero.css'
-import jsLogo from './assets/jsLogo.png'
-import reactLogo from './assets/reactLogo.png'
-import djangoLogo from './assets/djangoLogo.png'
-import pythonLogo from './assets/pythonLogo.png'
+import './Hero.css';
+import jsLogo from './assets/jsLogo.png';
+import reactLogo from './assets/reactLogo.png';
+import djangoLogo from './assets/djangoLogo.png';
+import pythonLogo from './assets/pythonLogo.png';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function HeroDisplay(){
     return (
         <>
-            <div id='home' className="content-outer">
+            <div id='home' className="content-outer" data-aos="fade-up">
                 <div className='content-inner'>
                     <div className='intro-text'>
                         <h1> 

@@ -1,9 +1,23 @@
-.heading{
+.heading-end{
     display: flex;
     justify-content: flex-end;
 
     position: fixed;
     right: 0;
+
+}
+
+.heading-start{
+    display: flex;
+    justify-content: flex-start;
+
+    position: relative;
+    left: 2rem;
+    top: 0;
+
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: xx-large;
 
 }
 
