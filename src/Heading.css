@@ -5,6 +5,8 @@
     position: fixed;
     right: 0;
 
+    z-index: 2;
+
 }
 
 .heading-start{
@@ -18,6 +20,8 @@
     color: whitesmoke;
     background-color: transparent;
     font-size: xx-large;
+
+    max-width: fit-content;
 
 }
 

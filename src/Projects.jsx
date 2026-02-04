@@ -1,6 +1,11 @@
-
 import projectRealityImage from './assets/ProjectReality.png'
 import './Projects.css'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 function DisplayProjects(){
     return (
         <>
@@ -12,7 +17,7 @@ function DisplayProjects(){
 
                 <div className='Projects-Display'>
 
-                    <div className='Project-Card'>
+                    <div className='Project-Card' data-aos="fade-right">
                         <img src={projectRealityImage} alt="ProjectReality Image" className='Project-Image'></img>
                         <a
                             href='https://projectreality.netlify.app/'
@@ -23,7 +28,7 @@ function DisplayProjects(){
                         </a>
                     </div>
 
-                    <div className='Project-Card'>
+                    <div className='Project-Card' data-aos="fade-right">
                         <img src={projectRealityImage} alt="ProjectReality Image" className='Project-Image'></img>
                         <a
                             href='https://projectreality.netlify.app/'
@@ -34,7 +39,7 @@ function DisplayProjects(){
                         </a>
                     </div>
 
-                    <div className='Project-Card'>
+                    <div className='Project-Card' data-aos="fade-right">
                         <img src={projectRealityImage} alt="ProjectReality Image" className='Project-Image'></img>
                         <a
                             href='https://projectreality.netlify.app/'
