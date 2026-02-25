@@ -1,0 +1,70 @@
+.page{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.center-align{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.marquee{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    border-bottom: 1px solid #eee;
+    
+}
+
+.marquee-inner{
+    display: inline-flex;
+    animation: marquee 30s linear infinite;
+
+    font-size: 100px;
+}
+
+@keyframes marquee{
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.landing-prompt{
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+
+    gap: .5rem;
+
+    font-size: x-large;
+}
+
+.image{
+    height: 50px;
+    width: 50px
+}
+
+.nav-link-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-size: x-large;
+}

@@ -1,0 +1,32 @@
+.page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+
+    word-spacing: .5rem;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    margin-top: auto;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+.underline{
+    border-bottom: 1px solid #eee;
+    min-width: 100vw;
+}

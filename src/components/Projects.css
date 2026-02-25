@@ -1,0 +1,61 @@
+.Outer-Page{
+    display: flex;
+
+    flex-direction: column;
+    min-height: 100vh;
+
+    
+    
+}
+
+.Intro-Section{
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+
+    padding-left: 2rem;
+    
+}
+
+.Projects-Display{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: start;
+
+    flex-wrap: wrap;
+
+
+
+    padding-left: 10rem;
+}
+
+.Project-Image{
+    max-width: 30rem;
+    max-height: 150rem;
+
+    z-index: -1;
+}
+
+
+.Project-Card{
+    display: flex;
+
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Project-Card:hover{
+    background-color: #8a8a8a28;
+    border-radius: 10px;
+}
+
+.Project-Card a{
+    color:aliceblue;
+    align-self: center;
+
+    font-weight:lighter;
+}

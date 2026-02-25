@@ -1,0 +1,74 @@
+import './Hero.css';
+import jsLogo from '../assets/jsLogo.png';
+import reactLogo from '../assets/reactLogo.png';
+import djangoLogo from '../assets/djangoLogo.png';
+import pythonLogo from '../assets/pythonLogo.png';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
+function HeroDisplay(){
+    return (
+        <>
+            <div id='home' className="content-outer" data-aos="fade-up">
+                <div className='content-inner'>
+                    <div className='intro-text'>
+                        <h1> 
+                            Full-Stack Developer<br/>
+                            creating clean, reliable<br/>
+                            code
+                        </h1>
+                    </div>
+                    
+                    <div className='hero-body'>
+                        <p>
+                            I craft modern web applications as well as games with a focus on<br/>
+                            creativity and maintainability
+                        </p>
+                    </div>
+                    
+                    <div className='buttons'>
+                        <button className='white-button'> View My Work</button>
+                        <button className="dark-button">Get in Touch</button>
+                    </div>
+
+                    <div className='pill-bubbles'>
+
+                        <button className="pill-bubble">
+                            <img src={jsLogo} alt="JS Image" className="logo-image"></img>
+                            <p1>JavaScript</p1>
+                        </button>
+
+                        <button className="pill-bubble">
+                            <img src={reactLogo} alt="React Image" className="logo-image"></img>
+                            <p1>React</p1>
+                        </button>
+
+                        <button className="pill-bubble">
+                            <img src={djangoLogo} alt="Django Image" className="logo-image"></img>
+                            <p1>Django</p1>
+                        </button>
+
+                        <button className="pill-bubble">
+                            <img src={pythonLogo} alt="python Image" className="logo-image"></img>
+                            <p1>Python</p1>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                
+                <div className='left-section'>
+                    <h1>Hi, Im christian!</h1>
+                </div>
+            </div>
+           
+            
+        </>
+    )
+}
+
+export default HeroDisplay;
